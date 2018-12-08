@@ -9,7 +9,7 @@ routeur = sys.argv[1]
 
 #initialiser la base de donee
 cred = credentials.Certificate("cle_db.json")
-firebase_admin.initialize_app(cred,{ "databaseURL" : "https://routeur-18013.firebaseio.com/"})
+firebase_admin.initialize_app(cred,{ "databaseURL" : "https://routeur-3db4c.firebaseio.com/"})
 
 #extraction des donnees de tout les bancs
 dataBancs = db.reference("/Bancs").get()
